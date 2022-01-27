@@ -17,6 +17,7 @@ h2 {
 
 .flexible-container {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .top-class {
@@ -49,4 +50,55 @@ h2 {
 .top-banner {
     background-image: url(soft-pic/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.text-editor {
+    background-image: url(soft-pic/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: no;
+}
+
+.ending {
+    background-image: url(soft-pic/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.commit-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+#first {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan, green);
+    border-image-slice: 1;
+}
+
+#three {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, yellow, orange);
+    border-image-slice: 1;
+}
+
+.color {
+    color: orange;
+}
+
+.boli {
+    display: flex;
+}
+
+footer p {
+    text-align: center;
+}
+
+.thos {
+    margin-left: 20px;
 }
